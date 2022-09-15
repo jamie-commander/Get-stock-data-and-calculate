@@ -43,7 +43,7 @@
 
 #### 流程圖
 ```mermaid
-        graph LR
+        graph BT
         Big_Data_Catch[大數據資料爬取] --> Calc[大數據資料計算處理]
         Calc --> Analysis[AI數據特徵分析]
         Analysis --> feature[特徵制定證券買賣策略]
