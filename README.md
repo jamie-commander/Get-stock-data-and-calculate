@@ -44,7 +44,7 @@
 #### 流程圖
 ```mermaid
         graph TB
-        Big_Data_Catch[大數據資料爬取] --> Calc[大數據資料計算處理]
+        Big_Data_Catch[數據資料爬取] --> Calc[數據資料計算處理]
         Calc --> Analysis[數據特徵分析]
         Analysis --> feature[制定證券買賣策略]
         feature --> backtrader[回測分析]
